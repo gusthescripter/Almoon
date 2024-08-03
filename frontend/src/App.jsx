@@ -1,9 +1,11 @@
-
+import Header from './components/Header.jsx';
+import HomeScreen from './screens/HomeScreen.jsx';
 
 const App = () => {
 	return (
 		<>
-			<h1>Almoon</h1>
+			<Header />
+			<HomeScreen />
 		</>
 	);
 };
